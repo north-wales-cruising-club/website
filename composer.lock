@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8730086342806bfb12e1e7df2b87f8a8",
-    "content-hash": "414969ddaf49816665068f8caa8265bc",
+    "hash": "84934d7295e3597acc6db26cfd20dc8a",
+    "content-hash": "8a47f5a60c4e17edbffb3104b7dd2319",
     "packages": [
         {
             "name": "composer/installers",
@@ -221,66 +221,6 @@
             "homepage": "https://wordpress.org/plugins/akismet/"
         },
         {
-            "name": "wpackagist-plugin/buddypress",
-            "version": "2.6.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/buddypress/",
-                "reference": "tags/2.6.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/buddypress.2.6.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/buddypress/"
-        },
-        {
-            "name": "wpackagist-plugin/cimy-user-extra-fields",
-            "version": "2.7.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/cimy-user-extra-fields/",
-                "reference": "tags/2.7.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cimy-user-extra-fields.2.7.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/cimy-user-extra-fields/"
-        },
-        {
-            "name": "wpackagist-plugin/cimy-user-manager",
-            "version": "1.5.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/cimy-user-manager/",
-                "reference": "tags/1.5.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cimy-user-manager.1.5.0.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/cimy-user-manager/"
-        },
-        {
             "name": "wpackagist-plugin/cookie-notice",
             "version": "1.2.36.1",
             "source": {
@@ -301,16 +241,16 @@
             "homepage": "https://wordpress.org/plugins/cookie-notice/"
         },
         {
-            "name": "wpackagist-plugin/event-organiser",
-            "version": "3.1.4",
+            "name": "wpackagist-plugin/events-manager",
+            "version": "5.6.6.1",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/event-organiser/",
-                "reference": "tags/3.1.4"
+                "url": "https://plugins.svn.wordpress.org/events-manager/",
+                "reference": "tags/5.6.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/event-organiser.3.1.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/events-manager.5.6.6.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -318,7 +258,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/event-organiser/"
+            "homepage": "https://wordpress.org/plugins/events-manager/"
         },
         {
             "name": "wpackagist-plugin/jetpack",
@@ -381,26 +321,6 @@
             "homepage": "https://wordpress.org/plugins/oik/"
         },
         {
-            "name": "wpackagist-plugin/the-events-calendar",
-            "version": "4.2.7",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/the-events-calendar/",
-                "reference": "tags/4.2.7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/the-events-calendar.4.2.7.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/the-events-calendar/"
-        },
-        {
             "name": "wpackagist-plugin/theme-my-login",
             "version": "6.4.5",
             "source": {
@@ -439,26 +359,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/uk-tides/"
-        },
-        {
-            "name": "wpackagist-plugin/vertical-news-scroller",
-            "version": "1.3.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/vertical-news-scroller/",
-                "reference": "tags/1.3.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/vertical-news-scroller.1.3.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/vertical-news-scroller/"
         },
         {
             "name": "wpackagist-plugin/visual-form-builder",
