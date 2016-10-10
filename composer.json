@@ -24,11 +24,13 @@
   "require": {
     "wordpress/wordpress": "*",
     "wpackagist-plugin/akismet": "3.2",
+    "wpackagist-plugin/buddypress": "2.6.2",
     "wpackagist-plugin/cookie-notice": "1.2.36.1",
     "wpackagist-plugin/events-manager": "5.6.6.1",
     "wpackagist-plugin/jetpack": "4.3.1",
     "wpackagist-plugin/netcam-live-stream": "1.0.5",
     "wpackagist-plugin/oik": "3.0.2",
+    "wpackagist-plugin/restrict-content-by-role": "3.4.2",
     "wpackagist-plugin/theme-my-login": "6.4.5",
     "wpackagist-plugin/uk-tides": "1.6.3",
     "wpackagist-plugin/visual-form-builder": "2.9.2",

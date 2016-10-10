@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "84934d7295e3597acc6db26cfd20dc8a",
-    "content-hash": "8a47f5a60c4e17edbffb3104b7dd2319",
+    "hash": "a8c9fa518c9036683445b1b9851b9863",
+    "content-hash": "9133cdd3ea3eeb748e25a43a4907adb8",
     "packages": [
         {
             "name": "composer/installers",
@@ -221,6 +221,26 @@
             "homepage": "https://wordpress.org/plugins/akismet/"
         },
         {
+            "name": "wpackagist-plugin/buddypress",
+            "version": "2.6.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/buddypress/",
+                "reference": "tags/2.6.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/buddypress.2.6.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/buddypress/"
+        },
+        {
             "name": "wpackagist-plugin/cookie-notice",
             "version": "1.2.36.1",
             "source": {
@@ -319,6 +339,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/oik/"
+        },
+        {
+            "name": "wpackagist-plugin/restrict-content-by-role",
+            "version": "3.4.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/restrict-content-by-role/",
+                "reference": "tags/3.4.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/restrict-content-by-role.3.4.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/restrict-content-by-role/"
         },
         {
             "name": "wpackagist-plugin/theme-my-login",
