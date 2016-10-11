@@ -10,3 +10,51 @@ Template: smartline-lite
 #footernav p {
 	padding: 0.15em 0 0.15em 0;
 }
+
+/*
+  Events Calendar
+*/
+.eventful ul {
+    background: #f5f5f5;
+    border-left: 10px solid #004488;
+    margin: 0;
+    padding: 0.1em 0.4em;
+    font-size: 0.8em;
+}
+
+.entry tr td {
+    padding: 0.3em 0.5em;
+}
+
+table.em-calendar td.eventful a, table.em-calendar td.eventful-today a {
+    color: #004488;
+}
+
+table.em-calendar td.eventless-pre, .em-calendar td.eventless-post {
+    color: #eee;
+}
+
+td.eventless {
+    color: #bbb;
+}
+
+table.em-calendar thead {
+    background: #e5e5e5;
+    font-weight: bold;
+    padding: 0.2em 1em;
+}
+
+/*
+  Events list
+*/
+
+.css-events-list table.events-table th.event-time {
+    width: 40%;
+}
+.css-events-list table.events-table td {
+    padding: 0.5em;
+}
+
+.entry tr th, .entry thead th {
+    padding: 0.5em;
+}
