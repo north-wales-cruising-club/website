@@ -14,8 +14,7 @@ Template: smartline-lite
 /*
   Events Calendar
 */
-
-.eventful ul, .eventful-today ul {
+.eventful ul {
     background: #f5f5f5;
     border-left: 10px solid #004488;
     margin: 0;
