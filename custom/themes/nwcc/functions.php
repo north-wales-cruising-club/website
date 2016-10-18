@@ -40,6 +40,7 @@ function nwcc_navionicsMapShortcode($attrs)
     $zoom = 'true';
     $units = 'true';
     $scale = 'true';
+    $zoomLevel = 0;
 
     if (is_array($attrs)) {
         if (array_key_exists('lat', $attrs)) {
@@ -48,6 +49,10 @@ function nwcc_navionicsMapShortcode($attrs)
 
         if (array_key_exists('long', $attrs)) {
             $long = $attrs['long'];
+        }
+
+        if (array_key_exists('zoomlevel', $attrs)) {
+            $zoomLevel = (int)$attrs['zoomlevel'];
         }
 
         if (array_key_exists('zoom', $attrs) && $attrs['zoom'] == 'false') {
@@ -71,7 +76,7 @@ function nwcc_navionicsMapShortcode($attrs)
             var webapi = new JNC.Views.BoatingNavionicsMap({
                 tagId: '#nautical-map-container',
                 center: [" . $long . "," . $lat . "],
-                zoom: 0,
+                zoom: " . $zoomLevel . ",
                 ZoomControl: " . $zoom . ",
                 DistanceControl: false,
                 SonarControl: false,
@@ -89,7 +94,7 @@ function nwcc_navionicsMapShortcode($attrs)
             var webapi = new JNC.Views.BoatingNavionicsMap({
                 tagId: '#nautical-map-container',
                 center: [12.0, 46.0],
-                zoom: 0,
+                zoom: " . $zoomLevel . ",
                 ZoomControl: " . $zoom . ",
                 DistanceControl: false,
                 SonarControl: false,
