@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b788460fe7f896acf517cc73facbd740",
-    "content-hash": "c6882c5db80e530725cdd705e38cad2d",
+    "hash": "f0e4ffab8ef988059e6325589d74ce01",
+    "content-hash": "f9a34905ab625be24c699143ed21bb22",
     "packages": [
         {
             "name": "composer/installers",
@@ -419,26 +419,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/theme-my-login/"
-        },
-        {
-            "name": "wpackagist-plugin/uk-tides",
-            "version": "1.6.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/uk-tides/",
-                "reference": "tags/1.6.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/uk-tides.1.6.3.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/uk-tides/"
         },
         {
             "name": "wpackagist-plugin/user-role-editor",
