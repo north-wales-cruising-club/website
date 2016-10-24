@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6ead16c447f42e62a698cbfdabbfc5f7",
-    "content-hash": "bb2b22a1e2c4f3ead7d6a540d2d963f8",
+    "hash": "b788460fe7f896acf517cc73facbd740",
+    "content-hash": "c6882c5db80e530725cdd705e38cad2d",
     "packages": [
         {
             "name": "composer/installers",
@@ -219,6 +219,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/akismet/"
+        },
+        {
+            "name": "wpackagist-plugin/awesome-weather",
+            "version": "1.5.10",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/awesome-weather/",
+                "reference": "tags/1.5.10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/awesome-weather.1.5.10.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/awesome-weather/"
         },
         {
             "name": "wpackagist-plugin/buddypress",
@@ -479,26 +499,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordpress-seo/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-forecast",
-            "version": "5.5",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-forecast/",
-                "reference": "tags/5.5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-forecast.5.5.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-forecast/"
         },
         {
             "name": "wpackagist-theme/smartline-lite",

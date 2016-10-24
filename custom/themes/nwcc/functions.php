@@ -18,6 +18,63 @@ function bp_private_message_shortcode($atts, $content = null) {
 add_shortcode( 'bp_privatemessage', 'bp_private_message_shortcode' );
 
 /**
+ * Shortcode for inserting Mailchimp archive
+ *
+ * @param type $atts The shortcode attributes
+ * @param type $content The content to inject
+ */
+function nwcc_mailchimp_shortcode($atts, $content = null) {
+    extract(shortcode_atts(array(
+        'mode' => 'signup'
+    ), $atts));
+
+    switch ($mode) {
+        case 'signup':
+            return '<!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<div id="mc_embed_signup">
+<form action="//nwcc.us12.list-manage.com/subscribe/post?u=48300ed9f14f69f4cf12bcc9b&amp;id=31ee33acfc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group">
+	<label for="mce-FNAME">First Name </label>
+	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+</div>
+<div class="mc-field-group">
+	<label for="mce-LNAME">Last Name </label>
+	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+</div>
+<div class="mc-field-group input-group">
+    <strong>Interests </strong>
+    <ul><li><input type="checkbox" value="2048" name="group[6169][2048]" id="mce-group[6169]-6169-0"><label for="mce-group[6169]-6169-0">On the water events</label></li>
+<li><input type="checkbox" value="4096" name="group[6169][4096]" id="mce-group[6169]-6169-1"><label for="mce-group[6169]-6169-1">Social events</label></li>
+<li><input type="checkbox" value="8192" name="group[6169][8192]" id="mce-group[6169]-6169-2"><label for="mce-group[6169]-6169-2">Newsletters</label></li>
+</ul>
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_48300ed9f14f69f4cf12bcc9b_31ee33acfc" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->';
+
+        case 'archive':
+            return '<script language="javascript" src="//nwcc.us12.list-manage.com/generate-js/?u=48300ed9f14f69f4cf12bcc9b&fid=3269&show=10" type="text/javascript"></script>';
+    }
+}
+add_shortcode( 'nwcc_mailchimp', 'nwcc_mailchimp_shortcode' );
+
+/**
  * Shortcode for displaying a Navionics Map.
  *
  * @example <code>[navionics]</code> produces a simple Navionics map
