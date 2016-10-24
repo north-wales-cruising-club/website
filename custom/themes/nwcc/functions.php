@@ -18,6 +18,17 @@ function bp_private_message_shortcode($atts, $content = null) {
 add_shortcode( 'bp_privatemessage', 'bp_private_message_shortcode' );
 
 /**
+ * Shortcode for inserting Mailchimp archive
+ *
+ * @param type $atts The shortcode attributes
+ * @param type $content The content to inject
+ */
+function nwcc_mailchimp_shortcode($atts, $content = null) {
+    return '<script language="javascript" src="//nwcc.us12.list-manage.com/generate-js/?u=48300ed9f14f69f4cf12bcc9b&fid=3269&show=10" type="text/javascript"></script>';
+}
+add_shortcode( 'nwcc_mailchimp', 'nwcc_mailchimp_shortcode' );
+
+/**
  * Shortcode for displaying a Navionics Map.
  *
  * @example <code>[navionics]</code> produces a simple Navionics map
