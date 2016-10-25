@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b788460fe7f896acf517cc73facbd740",
-    "content-hash": "c6882c5db80e530725cdd705e38cad2d",
+    "hash": "69c2315c58e7fe24fa16a342d3a6d629",
+    "content-hash": "7cc0903bbf140072541640e03b6bdc0a",
     "packages": [
         {
             "name": "composer/installers",
@@ -242,15 +242,15 @@
         },
         {
             "name": "wpackagist-plugin/buddypress",
-            "version": "2.6.2",
+            "version": "2.7.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/buddypress/",
-                "reference": "tags/2.6.2"
+                "reference": "tags/2.7.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/buddypress.2.6.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/buddypress.2.7.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -302,7 +302,7 @@
         },
         {
             "name": "wpackagist-plugin/import-users-from-csv-with-meta",
-            "version": "1.9.7",
+            "version": "1.9.8.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/import-users-from-csv-with-meta/",
@@ -361,26 +361,6 @@
             "homepage": "https://wordpress.org/plugins/netcam-live-stream/"
         },
         {
-            "name": "wpackagist-plugin/oik",
-            "version": "3.0.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/oik/",
-                "reference": "tags/3.0.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/oik.3.0.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/oik/"
-        },
-        {
             "name": "wpackagist-plugin/restrict-content-by-role",
             "version": "3.4.2",
             "source": {
@@ -402,15 +382,15 @@
         },
         {
             "name": "wpackagist-plugin/theme-my-login",
-            "version": "6.4.5",
+            "version": "6.4.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/theme-my-login/",
-                "reference": "tags/6.4.5"
+                "reference": "tags/6.4.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/theme-my-login.6.4.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/theme-my-login.6.4.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -421,36 +401,16 @@
             "homepage": "https://wordpress.org/plugins/theme-my-login/"
         },
         {
-            "name": "wpackagist-plugin/uk-tides",
-            "version": "1.6.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/uk-tides/",
-                "reference": "tags/1.6.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/uk-tides.1.6.3.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/uk-tides/"
-        },
-        {
             "name": "wpackagist-plugin/user-role-editor",
-            "version": "4.27.2",
+            "version": "4.28",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/user-role-editor/",
-                "reference": "tags/4.27.2"
+                "reference": "tags/4.28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.27.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.28.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -482,15 +442,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "3.7.0",
+            "version": "3.7.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/3.7.0"
+                "reference": "tags/3.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.7.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.7.1.zip",
                 "reference": null,
                 "shasum": null
             },

@@ -62,3 +62,72 @@ table.em-calendar thead {
 
 #social-icons-menu li a[href*="eboatcards.com"]:before { content: 'eBC'; }
 #social-icons-menu li a[href*="eboatcards.com"]  { background: #2c7bc4; }
+
+/*
+ Tidetimes widget
+*/
+.tidetimes-widget {
+  min-height: 20px;
+  width: 100%;
+  text-decoration: none;
+}
+
+.tidetimes-widget a {
+  border: 0px;
+  text-decoration: none;
+}
+
+.tidetimes-widget > h1.tidetimes-title {
+  display:none;
+}
+
+.tidetimes-widget p.tidetimes-disclaimer, .tidetimes-widget p.tidetimes-cite {
+  display:none;
+}
+
+.tidetimes-widget .tidetimes-forecast-date a {
+  color: #2b6399;
+  margin-bottom: 3px;
+  font-weight: 600;
+}
+
+.tidetimes-widget .tidetimes-date-for {
+  display: none;
+}
+
+.tidetimes-widget  p.tidetimes-cite {
+  font-size: 10px;
+}
+
+.tidetimes-widget .tidetimes-times dl {
+}
+
+.tidetimes-widget .tidetimes-times dl dd {
+  margin: 10px 0;
+}
+
+.tidetimes-widget .tidetimes-times dl dd dl{
+  margin: 0;
+}
+
+.tidetimes-widget .tidetimes-times dl dd dt, .tidetimes-widget .tidetimes-times dl dd dd {
+  display: inline-block;
+  margin: 0 0 5px;
+}
+
+.tidetimes-widget .tidetimes-times dl dd dt {
+}
+
+.tidetimes-widget .tidetimes-times dl dd dd {
+  margin-left: 10px;
+}
+
+.tidetimes-widget .hi {
+}
+
+.tidetimes-widget .low {
+}
+
+.tidetimes-widget .tidetimes-logo {
+  display: none;
+}
