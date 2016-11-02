@@ -95,6 +95,11 @@ li.event-cat-power:before {
   padding-right: 5px;
 }
 
+li.event-cat-external:before {
+  content: "📅";
+  padding-right: 5px;
+}
+
 
 /*
  Tidetimes widget
