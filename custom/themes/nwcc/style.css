@@ -21,6 +21,7 @@ Template: smartline-lite
     margin: 0;
     padding: 0.1em 0.4em;
     font-size: 0.8em;
+    list-style: none;
 }
 
 .entry tr td {
@@ -62,6 +63,43 @@ table.em-calendar thead {
 
 #social-icons-menu li a[href*="eboatcards.com"]:before { content: 'eBC'; }
 #social-icons-menu li a[href*="eboatcards.com"]  { background: #2c7bc4; }
+
+/*
+ Event bullet lists
+*/
+
+aside.widget ul, ul.event-categories {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+
+li.event-cat-social:before {
+  content: "🏠";
+  padding-right: 5px;
+}
+
+li.event-cat-sail:before {
+  content: "⛵️";
+  padding-right: 5px;
+}
+
+li.event-cat-training:before {
+  content: "🎓";
+  padding-right: 5px;
+}
+
+li.event-cat-power:before {
+  content: "🛥";
+  padding-right: 5px;
+}
+
+li.event-cat-external:before {
+  content: "📅";
+  padding-right: 5px;
+}
+
 
 /*
  Tidetimes widget

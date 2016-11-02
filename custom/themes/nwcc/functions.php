@@ -91,12 +91,14 @@ add_shortcode( 'nwcc_mailchimp', 'nwcc_mailchimp_shortcode' );
  */
 function nwcc_navionicsMapShortcode($attrs)
 {
+    $id = 1;
     $lat = false;
     $long = false;
 
     $zoom = 'true';
     $units = 'true';
     $scale = 'true';
+    $pinTitle = null;
     $zoomLevel = 0;
 
     if (is_array($attrs)) {
@@ -112,6 +114,10 @@ function nwcc_navionicsMapShortcode($attrs)
             $zoomLevel = (int)$attrs['zoomlevel'];
         }
 
+        if (array_key_exists('id', $attrs)) {
+            $id = (int)$attrs['id'];
+        }
+
         if (array_key_exists('zoom', $attrs) && $attrs['zoom'] == 'false') {
             $zoom = 'false';
         }
@@ -123,15 +129,19 @@ function nwcc_navionicsMapShortcode($attrs)
         if (array_key_exists('scale', $attrs) && $attrs['scale'] == 'false') {
             $scale = 'false';
         }
+
+        if (array_key_exists('pintitle', $attrs)) {
+            $pinTitle = $attrs['pintitle'];
+        }
     }
 
 
     if ($lat && $long) {
         $result = "
-        <div id='nautical-map-container'></div>
+        <div id='nautical-map-container-" . $id . "'></div>
         <script>
             var webapi = new JNC.Views.BoatingNavionicsMap({
-                tagId: '#nautical-map-container',
+                tagId: '#nautical-map-container-" . $id . "',
                 center: [" . $long . "," . $lat . "],
                 zoom: " . $zoomLevel . ",
                 ZoomControl: " . $zoom . ",
@@ -142,14 +152,19 @@ function nwcc_navionicsMapShortcode($attrs)
             });
             webapi.showScaleLineControl(" . $scale . ");
             webapi.showDepthUnitControl(" . $units . ");
-            webapi.showDistanceUnitControl(" . $units . ");
-        </script>";
+            webapi.showDistanceUnitControl(" . $units . ");";
+
+        if ($pinTitle !== null) {
+            $result .= "webapi.showBalloon({title: '" . $pinTitle . "', coordinates: [" . $long . ", " . $lat . "]});";
+        }
+
+        $result .= "</script>";
     } else {
         $result = "
-        <div id='nautical-map-container'></div>
+        <div id='nautical-map-container-" . $id . "'></div>
         <script>
             var webapi = new JNC.Views.BoatingNavionicsMap({
-                tagId: '#nautical-map-container',
+                tagId: '#nautical-map-container-" . $id . "',
                 center: [12.0, 46.0],
                 zoom: " . $zoomLevel . ",
                 ZoomControl: " . $zoom . ",
