@@ -195,3 +195,12 @@ function nwcc_enqueueScripts() {
 
 add_action('wp_enqueue_scripts', 'nwcc_enqueueScripts');
 add_shortcode( 'nwcc_navionics', 'nwcc_navionicsMapShortcode' );
+
+/**
+ * Initialisation action
+ **/
+function nwcc_init() {
+    add_post_type_support( 'event', 'publicize' );
+}
+
+add_action('init', 'nwcc_init');
