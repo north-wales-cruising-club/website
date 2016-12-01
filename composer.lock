@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "69c2315c58e7fe24fa16a342d3a6d629",
-    "content-hash": "7cc0903bbf140072541640e03b6bdc0a",
+    "hash": "2251c8882b04777d521cf2c2372e0b3c",
+    "content-hash": "486ef9992d66e90301ab3ce72214cf8f",
     "packages": [
         {
             "name": "composer/installers",
@@ -242,15 +242,15 @@
         },
         {
             "name": "wpackagist-plugin/buddypress",
-            "version": "2.7.0",
+            "version": "2.7.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/buddypress/",
-                "reference": "tags/2.7.0"
+                "reference": "tags/2.7.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/buddypress.2.7.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/buddypress.2.7.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -302,7 +302,7 @@
         },
         {
             "name": "wpackagist-plugin/import-users-from-csv-with-meta",
-            "version": "1.9.8.1",
+            "version": "1.9.9.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/import-users-from-csv-with-meta/",
@@ -322,15 +322,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "4.3.2",
+            "version": "4.4.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/4.3.2"
+                "reference": "tags/4.4.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.4.3.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.4.4.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -362,15 +362,15 @@
         },
         {
             "name": "wpackagist-plugin/restrict-content-by-role",
-            "version": "3.4.2",
+            "version": "3.5.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/restrict-content-by-role/",
-                "reference": "tags/3.4.2"
+                "reference": "tags/3.5.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/restrict-content-by-role.3.4.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/restrict-content-by-role.3.5.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -402,15 +402,15 @@
         },
         {
             "name": "wpackagist-plugin/user-role-editor",
-            "version": "4.28",
+            "version": "4.30",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/user-role-editor/",
-                "reference": "tags/4.28"
+                "reference": "tags/4.30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.28.zip",
+                "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.30.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -442,15 +442,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "3.7.1",
+            "version": "3.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/3.7.1"
+                "reference": "tags/3.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.7.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.9.zip",
                 "reference": null,
                 "shasum": null
             },
