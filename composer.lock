@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d33170bf5e080c3bbdde32a4e7310bb0",
-    "content-hash": "1e9d8c13a5272203020b0903a94e86f7",
+    "hash": "e2453607c8f978af0871359b3bda029c",
+    "content-hash": "7ef35e81a215d86580c38fc2b1f5ec6b",
     "packages": [
         {
             "name": "composer/installers",
@@ -242,15 +242,15 @@
         },
         {
             "name": "wpackagist-plugin/buddypress",
-            "version": "2.7.2",
+            "version": "2.7.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/buddypress/",
-                "reference": "tags/2.7.2"
+                "reference": "tags/2.7.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/buddypress.2.7.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/buddypress.2.7.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -262,15 +262,15 @@
         },
         {
             "name": "wpackagist-plugin/cookie-notice",
-            "version": "1.2.36.1",
+            "version": "1.2.37",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/cookie-notice/",
-                "reference": "tags/1.2.36.1"
+                "reference": "tags/1.2.37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cookie-notice.1.2.36.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/cookie-notice.1.2.37.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -302,15 +302,15 @@
         },
         {
             "name": "wpackagist-plugin/import-users-from-csv-with-meta",
-            "version": "1.9.9.5",
+            "version": "1.9.9.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/import-users-from-csv-with-meta/",
-                "reference": "trunk"
+                "reference": "tags/1.9.9.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/import-users-from-csv-with-meta.zip",
+                "url": "https://downloads.wordpress.org/plugin/import-users-from-csv-with-meta.1.9.9.8.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -322,15 +322,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "4.4.1",
+            "version": "4.4.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/4.4.1"
+                "reference": "tags/4.4.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.4.4.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.4.4.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -382,15 +382,15 @@
         },
         {
             "name": "wpackagist-plugin/theme-my-login",
-            "version": "6.4.6",
+            "version": "6.4.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/theme-my-login/",
-                "reference": "tags/6.4.6"
+                "reference": "tags/6.4.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/theme-my-login.6.4.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/theme-my-login.6.4.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -402,15 +402,15 @@
         },
         {
             "name": "wpackagist-plugin/user-role-editor",
-            "version": "4.30",
+            "version": "4.31.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/user-role-editor/",
-                "reference": "tags/4.30"
+                "reference": "tags/4.31.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.30.zip",
+                "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.31.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -442,15 +442,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "3.9",
+            "version": "4.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/3.9"
+                "reference": "tags/4.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.9.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.1.zip",
                 "reference": null,
                 "shasum": null
             },
