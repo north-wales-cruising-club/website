@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "18399cb5b0f696325c4e2cdbf43fcb2f",
-    "content-hash": "6733f788b8e59718a494a0520b3ba469",
+    "hash": "003ce7df02bc354af8452d88042dd4dd",
+    "content-hash": "f9837f8c7a1f4b5bb32307dcd846ecbc",
     "packages": [
         {
             "name": "composer/installers",
@@ -113,27 +113,6 @@
                 "zikula"
             ],
             "time": "2016-08-13 20:53:52"
-        },
-        {
-            "name": "psycle-wordpress-plugins/mail-options",
-            "version": "1.0.13",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Psycle/wordpress-plugin-mail-options.git",
-                "reference": "dbe2f64e70fc6a90819c0c796cbe0b2426493da0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Psycle/wordpress-plugin-mail-options/zipball/dbe2f64e70fc6a90819c0c796cbe0b2426493da0",
-                "reference": "dbe2f64e70fc6a90819c0c796cbe0b2426493da0",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "wordpress-muplugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "time": "2015-10-19 15:02:25"
         },
         {
             "name": "psycle-wordpress/wordpress-core-installer",
@@ -339,6 +318,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/jetpack/"
+        },
+        {
+            "name": "wpackagist-plugin/mailgun",
+            "version": "1.5.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/mailgun/",
+                "reference": "tags/1.5.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mailgun.1.5.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mailgun/"
         },
         {
             "name": "wpackagist-plugin/netcam-live-stream",
