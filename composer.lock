@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e2453607c8f978af0871359b3bda029c",
-    "content-hash": "7ef35e81a215d86580c38fc2b1f5ec6b",
+    "hash": "18399cb5b0f696325c4e2cdbf43fcb2f",
+    "content-hash": "6733f788b8e59718a494a0520b3ba469",
     "packages": [
         {
             "name": "composer/installers",
@@ -462,15 +462,15 @@
         },
         {
             "name": "wpackagist-theme/smartline-lite",
-            "version": "1.4.2",
+            "version": "1.4.3",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/smartline-lite/",
-                "reference": "1.4.2"
+                "reference": "1.4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/smartline-lite.1.4.2.zip",
+                "url": "https://downloads.wordpress.org/theme/smartline-lite.1.4.3.zip",
                 "reference": null,
                 "shasum": null
             },

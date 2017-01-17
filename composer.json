@@ -36,7 +36,7 @@
     "wpackagist-plugin/user-role-editor": "4.31.1",
     "wpackagist-plugin/visual-form-builder": "2.9.2",
     "wpackagist-plugin/wordpress-seo": "4.1",
-    "wpackagist-theme/smartline-lite": "1.4.2",
+    "wpackagist-theme/smartline-lite": "1.4.3",
 	"psycle-wordpress/wordpress-core-installer": "^1.0",
     "psycle-wordpress-plugins/mail-options": "^1.0"
   },
