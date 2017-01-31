@@ -200,7 +200,7 @@ add_shortcode( 'nwcc_navionics', 'nwcc_navionicsMapShortcode' );
  * Initialisation action
  **/
 function nwcc_init() {
-    add_post_type_support( 'event', 'publicize' );
+    // add_post_type_support( 'event', 'publicize' );
 }
 
 add_action('init', 'nwcc_init');
