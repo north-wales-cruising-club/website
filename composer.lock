@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "003ce7df02bc354af8452d88042dd4dd",
-    "content-hash": "f9837f8c7a1f4b5bb32307dcd846ecbc",
+    "hash": "ea0838581f6b8e82f31d9470ff7f50ec",
+    "content-hash": "b53b9ad8da5a7e7917290f8298abe127",
     "packages": [
         {
             "name": "composer/installers",
@@ -168,11 +168,11 @@
         },
         {
             "name": "wordpress/wordpress",
-            "version": "4.7.1",
+            "version": "4.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "4.7.1"
+                "reference": "4.7.2"
             },
             "replace": {
                 "johnpbloch/wordpress": "*"
@@ -281,15 +281,15 @@
         },
         {
             "name": "wpackagist-plugin/import-users-from-csv-with-meta",
-            "version": "1.9.9.8",
+            "version": "1.10.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/import-users-from-csv-with-meta/",
-                "reference": "tags/1.9.9.8"
+                "reference": "tags/1.10.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/import-users-from-csv-with-meta.1.9.9.8.zip",
+                "url": "https://downloads.wordpress.org/plugin/import-users-from-csv-with-meta.1.10.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -301,15 +301,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "4.4.2",
+            "version": "4.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/4.4.2"
+                "reference": "tags/4.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.4.4.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.4.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -321,15 +321,15 @@
         },
         {
             "name": "wpackagist-plugin/mailgun",
-            "version": "1.5.7",
+            "version": "1.5.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/mailgun/",
-                "reference": "tags/1.5.7"
+                "reference": "tags/1.5.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mailgun.1.5.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/mailgun.1.5.8.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -441,15 +441,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "4.1",
+            "version": "4.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/4.1"
+                "reference": "tags/4.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -461,15 +461,15 @@
         },
         {
             "name": "wpackagist-theme/smartline-lite",
-            "version": "1.4.3",
+            "version": "1.4.4",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/smartline-lite/",
-                "reference": "1.4.3"
+                "reference": "1.4.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/smartline-lite.1.4.3.zip",
+                "url": "https://downloads.wordpress.org/theme/smartline-lite.1.4.4.zip",
                 "reference": null,
                 "shasum": null
             },

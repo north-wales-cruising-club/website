@@ -99,6 +99,7 @@ function nwcc_navionicsMapShortcode($attrs)
     $units = 'true';
     $scale = 'true';
     $pinTitle = null;
+    $pinBody = '';
     $zoomLevel = 0;
 
     if (is_array($attrs)) {
@@ -133,6 +134,10 @@ function nwcc_navionicsMapShortcode($attrs)
         if (array_key_exists('pintitle', $attrs)) {
             $pinTitle = $attrs['pintitle'];
         }
+
+        if (array_key_exists('pinbody', $attrs)) {
+            $pinBody = $attrs['pinbody'];
+        }
     }
 
 
@@ -155,7 +160,17 @@ function nwcc_navionicsMapShortcode($attrs)
             webapi.showDistanceUnitControl(" . $units . ");";
 
         if ($pinTitle !== null) {
-            $result .= "webapi.showBalloon({title: '" . $pinTitle . "', coordinates: [" . $long . ", " . $lat . "]});";
+            $result .= "
+            function openBalloon(title, body, position) {
+                var content = {
+                    title: title,
+                    content: body,
+                    coordinates: ol.proj.transform(position, 'EPSG:4326', 'EPSG:3857'),
+                }
+                webapi.showBalloon(content);
+            }
+
+            openBalloon('$pinTitle', '$pinBody', [$long, $lat]);";
         }
 
         $result .= "</script>";
@@ -200,7 +215,7 @@ add_shortcode( 'nwcc_navionics', 'nwcc_navionicsMapShortcode' );
  * Initialisation action
  **/
 function nwcc_init() {
-    add_post_type_support( 'event', 'publicize' );
+    // add_post_type_support( 'event', 'publicize' );
 }
 
 add_action('init', 'nwcc_init');
