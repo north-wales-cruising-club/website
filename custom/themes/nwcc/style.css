@@ -105,6 +105,19 @@ li.event-cat-booking-deadline:before {
   padding-right: 5px;
 }
 
+li.all-events-link:before {
+  content: "➡️";
+  padding-right: 5px;
+}
+
+li.all-events-link:after {
+  content: "➡️";
+  padding-left: 5px;
+}
+
+li.all-events-link {
+    padding-top: 0.5em;
+}
 
 /*
  Tidetimes widget
