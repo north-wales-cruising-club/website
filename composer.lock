@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ea0838581f6b8e82f31d9470ff7f50ec",
-    "content-hash": "b53b9ad8da5a7e7917290f8298abe127",
+    "content-hash": "7bfc534602c26154e7516bac8b6fb12c",
     "packages": [
         {
             "name": "composer/installers",
@@ -112,7 +111,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-08-13 20:53:52"
+            "time": "2016-08-13T20:53:52+00:00"
         },
         {
             "name": "psycle-wordpress/wordpress-core-installer",
@@ -164,15 +163,15 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2016-02-19 10:51:45"
+            "time": "2016-02-19T10:51:45+00:00"
         },
         {
             "name": "wordpress/wordpress",
-            "version": "4.7.2",
+            "version": "4.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "4.7.2"
+                "reference": "4.7.3"
             },
             "replace": {
                 "johnpbloch/wordpress": "*"
