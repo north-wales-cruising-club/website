@@ -91,7 +91,8 @@ add_shortcode( 'nwcc_mailchimp', 'nwcc_mailchimp_shortcode' );
  */
 function nwcc_navionicsMapShortcode($attrs)
 {
-    $id = 1;
+    global $post;
+    $id = $post->ID;
     $lat = false;
     $long = false;
 
