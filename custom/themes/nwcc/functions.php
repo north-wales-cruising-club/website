@@ -1,4 +1,10 @@
 <?php
+
+// 28/4/2017 Really bad hack to get around problems with JustHost Varnish cache server caching logged out pages.
+// JustHost refused to provide technical assistance and information about their Varnish cache to allow a more nuanced
+// solution
+add_action( 'init', 'nocache_headers' );
+
 /**
  * Create a shortcode to create a link to PM a user
  *
@@ -69,7 +75,7 @@ function nwcc_mailchimp_shortcode($atts, $content = null) {
 <!--End mc_embed_signup-->';
 
         case 'archive':
-            return '<script language="javascript" src="//nwcc.us12.list-manage.com/generate-js/?u=48300ed9f14f69f4cf12bcc9b&fid=3269&show=10" type="text/javascript"></script>';
+            return '<script language="javascript" src="//nwcc.us12.list-manage.com/generate-js/?u=48300ed9f14f69f4cf12bcc9b&fid=3269&show=100" type="text/javascript"></script>';
     }
 }
 add_shortcode( 'nwcc_mailchimp', 'nwcc_mailchimp_shortcode' );
